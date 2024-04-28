@@ -36,7 +36,6 @@ export const Leftcontainersectionicon = styled.p`
   &:hover {
     color: #525252;
     opacity: 1;
-    transition: all .5s ease-out;
-    }
+    transition: all 0.5s ease-out;
   }
 `;
