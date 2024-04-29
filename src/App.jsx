@@ -40,7 +40,7 @@ const App = () => {
       <Container>
         <Topcontainer>
           <Topcontainertitle>Yakubu Amidu</Topcontainertitle>
-          <Topcontainerp>Self-Tought Web Developer</Topcontainerp>
+          <Topcontainerp>Self-Tought Web and App Developer</Topcontainerp>
         </Topcontainer>
         <Maincontainer>
           <Leftcontainer>
