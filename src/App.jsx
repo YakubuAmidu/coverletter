@@ -67,13 +67,17 @@ const App = () => {
                 </Leftcontainersectionicon>
               </Leftcontainersection>
               <Leftcontainersection>
-                <Leftcontainersectionp>GitHub</Leftcontainersectionp>
+                <Leftcontainersectionp>
+                  https://github.com/YakubuAmidu
+                </Leftcontainersectionp>
                 <Leftcontainersectionicon>
                   <FaSquareGithub />
                 </Leftcontainersectionicon>
               </Leftcontainersection>
               <Leftcontainersection>
-                <Leftcontainersectionp>Linkedin</Leftcontainersectionp>
+                <Leftcontainersectionp>
+                  https://www.linkedin.com/in/yakubu-amidu/
+                </Leftcontainersectionp>
                 <Leftcontainersectionicon>
                   <FaLinkedin />
                 </Leftcontainersectionicon>
@@ -100,7 +104,7 @@ const App = () => {
               </Rightcontaineraddress>
             </Rightcontaineraddressinfo>
             <Rightcontainertext>
-              <Rightcontainertextname>Dear Mr John</Rightcontainertextname>
+              <Rightcontainertextname>Dear Sir or Madam</Rightcontainertextname>
               <Rightcontainerdate>February 19, 2024</Rightcontainerdate>
             </Rightcontainertext>
             <Rightcontainerp>
