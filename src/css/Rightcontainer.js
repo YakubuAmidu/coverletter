@@ -22,3 +22,21 @@ export const Rightcontainerp = styled.p`
   width: 100%;
   font-family: Helvetica !important;
 `;
+
+export const Rightcontainertext = styled.div`
+  display: flex;
+  flexdirection: row;
+  justify-content: space-between;
+  font-family: Helvetica !important;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+`;
+
+export const Rightcontainertextname = styled.h2`
+  font-weight: bold;
+`;
+
+export const Rightcontainerdate = styled.p`
+  font-weight: bold;
+`;

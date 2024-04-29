@@ -29,6 +29,9 @@ import {
   Rightcontaineraddress,
   Rightcontaineraddressinfo,
   Rightcontainerp,
+  Rightcontainertext,
+  Rightcontainertextname,
+  Rightcontainerdate,
 } from "./css/Rightcontainer";
 
 const App = () => {
@@ -96,6 +99,10 @@ const App = () => {
                 New York, NY 9000
               </Rightcontaineraddress>
             </Rightcontaineraddressinfo>
+            <Rightcontainertext>
+              <Rightcontainertextname>Dear Mr John</Rightcontainertextname>
+              <Rightcontainerdate>February 19, 2024</Rightcontainerdate>
+            </Rightcontainertext>
             <Rightcontainerp>
               Dear Hiring Manager, I am writing to express my interest in the
               Website and App Developer position at your company. With my
