@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { Container } from "./css/Container";
+import { Container, Containerinfo } from "./css/Container";
 import {
   Topcontainer,
   Topcontainertitle,
@@ -28,84 +28,97 @@ import {
   Rightcontainername,
   Rightcontaineraddress,
   Rightcontaineraddressinfo,
-  Rightcontainerp
+  Rightcontainerp,
 } from "./css/Rightcontainer";
 
 const App = () => {
   return (
-    <Container>
-      <Topcontainer>
-        <Topcontainertitle>Yakubu Amidu</Topcontainertitle>
-        <Topcontainerp>Self-Tought Web Developer</Topcontainerp>
-      </Topcontainer>
-      <Maincontainer>
-        <Leftcontainer>
-          <Leftcontaineritems>
-            <Leftcontainertitle>CONTACT</Leftcontainertitle>
-            <Leftcontainersection>
-              <Leftcontainersectionp>Yakubu@gmail.com</Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <MdEmail />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-            <Leftcontainersection>
-              <Leftcontainersectionp>666-888-8888</Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <FaPhone />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-            <Leftcontainersection>
-              <Leftcontainersectionp>
-                Los Angeles, California
-              </Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <FaLocationPin />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-            <Leftcontainersection>
-              <Leftcontainersectionp>GitHub</Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <FaSquareGithub />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-            <Leftcontainersection>
-              <Leftcontainersectionp>Linkedin</Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <FaLinkedin />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-            <Leftcontainersection>
-              <Leftcontainersectionp>
-                toprankprogramming.dev
-              </Leftcontainersectionp>
-              <Leftcontainersectionicon>
-                <FaGlobe />
-              </Leftcontainersectionicon>
-            </Leftcontainersection>
-          </Leftcontaineritems>
-        </Leftcontainer>
-        <Rightcontainer>
-          <Rightcontaineraddressinfo>
-            <Rightcontainername>Microsoft</Rightcontainername>
-            <Rightcontaineraddress>
-              Nestseekers international 123 Fictional lane, New York, NY 9000
-            </Rightcontaineraddress>
-          </Rightcontaineraddressinfo>
-          <Rightcontainerp>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            ad ipsa dolore tempore, harum sit asperiores rerum quam iste officia
-            veritatis saepe dicta cum molestiae nostrum sunt vero porro neque.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            consequatur error laboriosam hic molestiae dolor deleniti sint nihil
-            qui provident consequuntur nemo deserunt eaque odit, sapiente
-            doloremque necessitatibus quidem in? Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Veniam vero, aliquid provident ea
-            tempora autem minus at. Laboriosam, ea. Et nostrum quibusdam enim
-            veniam vero repudiandae pariatur odio ex rerum?
-          </Rightcontainerp>
-        </Rightcontainer>
-      </Maincontainer>
-    </Container>
+    <Containerinfo>
+      <Container>
+        <Topcontainer>
+          <Topcontainertitle>Yakubu Amidu</Topcontainertitle>
+          <Topcontainerp>Self-Tought Web Developer</Topcontainerp>
+        </Topcontainer>
+        <Maincontainer>
+          <Leftcontainer>
+            <Leftcontaineritems>
+              <Leftcontainertitle>CONTACT</Leftcontainertitle>
+              <Leftcontainersection>
+                <Leftcontainersectionp>Yakubu@gmail.com</Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <MdEmail />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+              <Leftcontainersection>
+                <Leftcontainersectionp>666-888-8888</Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <FaPhone />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+              <Leftcontainersection>
+                <Leftcontainersectionp>
+                  Los Angeles, California
+                </Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <FaLocationPin />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+              <Leftcontainersection>
+                <Leftcontainersectionp>GitHub</Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <FaSquareGithub />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+              <Leftcontainersection>
+                <Leftcontainersectionp>Linkedin</Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <FaLinkedin />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+              <Leftcontainersection>
+                <Leftcontainersectionp>
+                  toprankprogramming.dev
+                </Leftcontainersectionp>
+                <Leftcontainersectionicon>
+                  <FaGlobe />
+                </Leftcontainersectionicon>
+              </Leftcontainersection>
+            </Leftcontaineritems>
+          </Leftcontainer>
+          <Rightcontainer>
+            <Rightcontaineraddressinfo>
+              <Rightcontainername>Microsoft</Rightcontainername>
+              <Rightcontaineraddress>
+                Nestseekers international
+                <br />
+                123 Fictional lane
+                <br />
+                New York, NY 9000
+              </Rightcontaineraddress>
+            </Rightcontaineraddressinfo>
+            <Rightcontainerp>
+              Dear Hiring Manager, I am writing to express my interest in the
+              Website and App Developer position at your company. With my
+              experience as a full-stack software developer and my strong
+              foundation in front-end and back-end technologies, I am confident
+              that I can contribute my coding skills and passion for creating
+              innovative solutions to your team.
+              <br />
+              <br />
+              This position is perfect for my career right now because it allows
+              me to utilize my strong foundation in front-end and back-end
+              technologies. As an experienced developer, I have honed my skills
+              in HTML5, CSS, ReactJS, React Native, and more. I am well-versed
+              in frameworks such as Bootstrap and have a deep understanding of
+              CSS grid and flexbox. On the back-end, I am proficient in
+              JavaScript, Express, Mongoose, MongoDB, and Firebase. My ability
+              to work with these technologies enables me to build seamless
+              digital experiences and deliver high-quality code.
+            </Rightcontainerp>
+          </Rightcontainer>
+        </Maincontainer>
+      </Container>
+    </Containerinfo>
   );
 };
 

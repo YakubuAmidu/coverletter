@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Leftcontainer = styled.div`
-  height: 100%;
   flex: 1;
   border-right: 3px solid orangered;
 `;
@@ -14,6 +13,7 @@ export const Leftcontaineritems = styled.div`
 
 export const Leftcontainertitle = styled.h2`
   font-weight: bold;
+  font-family: Helvetica;
 `;
 
 export const Leftcontainersection = styled.div`
