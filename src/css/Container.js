@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
-export const Containerinfo = styled.div``;
-
 export const Container = styled.div`
-  // margin: 3rem 0px;
-  border: 0.5px solid #c5c5c5;
+  max-width: 1000px;
+  height: 100%;
+  border: 4px solid darkgray;
   margin: 0 auto;
-  // box-shadow: -2px 3px 18px 2px rgba(0, 0, 0, 0.67);
-  // -webkit-box-shadow: -2px 3px 18px 2px rgba(0, 0, 0, 0.67);
-  // -moz-box-shadow: -2px 3px 18px 2px rgba(0, 0, 0, 0.67);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 `;

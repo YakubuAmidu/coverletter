@@ -1,135 +1,102 @@
 import "./App.css";
 
-import { Container, Containerinfo } from "./css/Container";
+import { Addresssection } from "./css/Addresssection";
+
+import { Container } from "./css/Container";
 import {
   Topcontainer,
-  Topcontainertitle,
+  Topcontainername,
+  Topcontainertext,
   Topcontainerp,
+  Topcontainercontact,
 } from "./css/Topcontainer";
+
 import { Maincontainer } from "./css/Maincontainer";
-import {
-  Leftcontainer,
-  Leftcontaineritems,
-  Leftcontainertitle,
-  Leftcontainersection,
-  Leftcontainersectionp,
-  Leftcontainersectionicon,
-} from "./css/Leftcontainer";
-
-import { MdEmail } from "react-icons/md";
-import { FaPhone } from "react-icons/fa";
-import { FaLocationPin } from "react-icons/fa6";
-import { FaSquareGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGlobe } from "react-icons/fa";
-
-import {
-  Rightcontainer,
-  Rightcontainername,
-  Rightcontaineraddress,
-  Rightcontaineraddressinfo,
-  Rightcontainerp,
-  Rightcontainertext,
-  Rightcontainertextname,
-  Rightcontainerdate,
-} from "./css/Rightcontainer";
+import { Textsection, Textsectionone, Textsectiontwo } from "./css/Textsection";
+import { Paragraphsection } from "./css/Paragraphsection";
 
 const App = () => {
   return (
-    <Containerinfo>
-      <Container>
-        <Topcontainer>
-          <Topcontainertitle>Yakubu Amidu</Topcontainertitle>
-          <Topcontainerp>Self-Tought Web and App Developer</Topcontainerp>
-        </Topcontainer>
-        <Maincontainer>
-          <Leftcontainer>
-            <Leftcontaineritems>
-              <Leftcontainertitle>CONTACT</Leftcontainertitle>
-              <Leftcontainersection>
-                <Leftcontainersectionp>Yakubu@gmail.com</Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <MdEmail />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-              <Leftcontainersection>
-                <Leftcontainersectionp>666-888-8888</Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <FaPhone />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-              <Leftcontainersection>
-                <Leftcontainersectionp>
-                  Los Angeles, California
-                </Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <FaLocationPin />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-              <Leftcontainersection>
-                <Leftcontainersectionp>
-                  https://github.com/YakubuAmidu
-                </Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <FaSquareGithub />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-              <Leftcontainersection>
-                <Leftcontainersectionp>
-                  https://www.linkedin.com/in/yakubu-amidu/
-                </Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <FaLinkedin />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-              <Leftcontainersection>
-                <Leftcontainersectionp>
-                  toprankprogramming.dev
-                </Leftcontainersectionp>
-                <Leftcontainersectionicon>
-                  <FaGlobe />
-                </Leftcontainersectionicon>
-              </Leftcontainersection>
-            </Leftcontaineritems>
-          </Leftcontainer>
-          <Rightcontainer>
-            <Rightcontaineraddressinfo>
-              <Rightcontainername>Microsoft</Rightcontainername>
-              <Rightcontaineraddress>
-                Nestseekers international
-                <br />
-                123 Fictional lane
-                <br />
-                New York, NY 9000
-              </Rightcontaineraddress>
-            </Rightcontaineraddressinfo>
-            <Rightcontainertext>
-              <Rightcontainertextname>Dear Sir or Madam</Rightcontainertextname>
-              <Rightcontainerdate>February 19, 2024</Rightcontainerdate>
-            </Rightcontainertext>
-            <Rightcontainerp>
-              Dear Hiring Manager, I am writing to express my interest in the
-              Website and App Developer position at your company. With my
-              experience as a full-stack software developer and my strong
-              foundation in front-end and back-end technologies, I am confident
-              that I can contribute my coding skills and passion for creating
-              innovative solutions to your team.
-              <br />
-              <br />
-              This position is perfect for my career right now because it allows
-              me to utilize my strong foundation in front-end and back-end
-              technologies. As an experienced developer, I have honed my skills
-              in HTML5, CSS, ReactJS, React Native, and more. I am well-versed
-              in frameworks such as Bootstrap and have a deep understanding of
-              CSS grid and flexbox. On the back-end, I am proficient in
-              JavaScript, Express, Mongoose, MongoDB, and Firebase. My ability
-              to work with these technologies enables me to build seamless
-              digital experiences and deliver high-quality code.
-            </Rightcontainerp>
-          </Rightcontainer>
-        </Maincontainer>
-      </Container>
-    </Containerinfo>
+    <Container>
+      <Topcontainer>
+        <Topcontainername>Yakubu Amidu</Topcontainername>
+        <Topcontainerp>
+          Self Thought Full-stack Web and App Developer
+        </Topcontainerp>
+        <Topcontainertext>
+          <Topcontainercontact>
+            <strong>Phone: </strong>323-875-6263
+          </Topcontainercontact>
+          <Topcontainercontact>
+            <strong>Email: </strong> yakubuamidu19@gmail.com
+          </Topcontainercontact>
+          <Topcontainercontact>
+            <strong>Location: </strong> Los Angeles, CA
+          </Topcontainercontact>
+        </Topcontainertext>
+      </Topcontainer>
+      <Addresssection>
+        <strong>TO</strong>
+        <br />
+        <strong>Michael Smith</strong>
+        <br />
+        Microsoft company
+        <br />
+        123 Fictional Lane
+        <br />
+        Los Angele, CA, 90000
+      </Addresssection>
+      <Maincontainer>
+        <Textsection>
+          <Textsectionone>
+            <strong>Dear Mr Michael, </strong>
+          </Textsectionone>
+          <Textsectiontwo>
+            <strong>January 12, 2024</strong>
+          </Textsectiontwo>
+        </Textsection>
+        <Paragraphsection>
+          My journey as a self-taught web, and app developer has been a
+          relentless pursuit of excellence. In the past four years of learning
+          web development, and app on my own and working for a versatile range
+          of clients, I have been able to successfully design and develop
+          websites that not only reflect the unique brand identity of clients
+          but also elevate their online presence to new heights. I believe that
+          working at Nest Seekers International can help me grow personally and
+          professionally.
+          <br />
+          <br />
+          I am currently working as a freelancer, where my responsibilities
+          entail creating user-centric, and highly functional web applications.
+          My commitment to excellence extends beyond design and development as I
+          have effectively implemented sophisticated website functionalities,
+          shrinking load times from 3.2 seconds to 2.4 seconds and enhancing
+          overall user experience.
+          <br />
+          <br />
+          As a freelancer, my role as a web developer demanded coming up with
+          modern solutions to optimize database performance and web asset
+          management, where I achieved a 28% reduction in error rates.
+          Troubleshooting and resolving technical issues was a regular part of
+          my work, ensuring that websites remain operational, secure, and
+          up-to-date with the latest web standards.
+          <br />
+          <br />
+          Meanwhile, my collaboration with marketing and design as a freelancer
+          was focused on improving user experience which aligns directly with
+          the responsibilities outlined for this position. My adeptness at
+          developing visually appealing, responsive designs and my deep
+          understanding of UI/UX principles were demonstrated through a project
+          that amplified user satisfaction by 19%. I have attached my resume
+          along with my personal portfolio to showcase my projects. Thank you.
+          <br />
+          <br />
+          Sincerely,
+          <br />
+          Yakubu Amidu
+        </Paragraphsection>
+      </Maincontainer>
+    </Container>
   );
 };
 

@@ -1,22 +1,43 @@
 import styled from "styled-components";
 
 export const Topcontainer = styled.div`
-  width: 100%;
-  height: 140px;
-  color: white;
+  // color: white;
+  padding: 1rem 0rem;
   text-align: center;
-  background: linear-gradient(to bottom, #c5c5c5 0%, #808080 40%, #3b3b3b 100%);
+  border-bottom: 4px dashed darkgray;
 `;
 
-export const Topcontainertitle = styled.h1`
+export const Topcontainername = styled.h1`
   text-transform: uppercase;
-  font-family: Vazir !important;
-  font-size: 45px;
+  background-image: linear-gradient(
+    to bottom,
+    #aeaeae 0%,
+    #696969 40%,
+    #3b3b3b 100%
+  );
+  background-clip: text;
+  color: transparent;
 `;
 
 export const Topcontainerp = styled.p`
-  font-size: 30px;
-  text-transform: capitalize;
-  font-family: Vazir !important;
-  font-weight: 500 !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Helvetica;
+  background-image: linear-gradient(
+    to bottom,
+    #aeaeae 0%,
+    #696969 40%,
+    #3b3b3b 100%
+  );
+  background-clip: text;
+  color: transparent;
+  margin: 1rem 0rem;
 `;
+
+export const Topcontainertext = styled.div`
+  display: flex;
+  flexdirection: row;
+  justify-content: space-around;
+`;
+
+export const Topcontainercontact = styled.p``;
